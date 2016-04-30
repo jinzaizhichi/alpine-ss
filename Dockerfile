@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:latest
 MAINTAINER Lyndon li <snakeliwei@gmail.com>
 RUN apk add --update py-pip && rm -rf /var/cache/apk/*
 RUN pip install shadowsocks==2.8.2
